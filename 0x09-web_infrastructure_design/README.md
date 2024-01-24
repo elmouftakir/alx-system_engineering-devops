@@ -17,7 +17,7 @@ Project done during **Full Stack Software Engineering studies** at **ALX**. It a
 
 ## File Descriptions
 
-Each file contains a link to an image hosted on imgur.com. These images are based on the following requirements: <br />
+Each file contains a link to an image hosted on imgur. These images are based on the following requirements: <br />
 
 ### [0-simple_web_stack](0-simple_web_stack)
 
@@ -67,6 +67,16 @@ You must add to [1-distributed_web_infrastructure](1-distributed_web_infrastruct
 
 * 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
+### [3-scale_up](3-scale_up)
+
+You must add to [2-secured_and_monitored_web_infrastructure](2-secured_and_monitored_web_infrastructure):
+
+* 1 physical server
+
+* 1 load-balancer (HAproxy) configured as cluster with the other one
+
+* Split components (web server, application server, database) with their own server
+
 ## Files
 
 | Filename | Description |
@@ -74,3 +84,4 @@ You must add to [1-distributed_web_infrastructure](1-distributed_web_infrastruct
 | [`0-simple_web_stack`](./0-simple_web_stack)  | Web Infrastructure Design with a LAMP stack. This contains: 1 server, 1 web server, 1 application server, 1 database and 1 domain name |
 | [`1-distributed_web_infrastructure`](./1-distributed_web_infrastructure) | Web Infrastructure Design, based on `0-simple_web_stack` that contains some additional components: 1 server, 1 web server, 1 application server, 1 load-balancer, 1 set of application files, 1 database |
 | [`2-secured_and_monitored_web_infrastructure`](2-secured_and_monitored_web_infrastructure) | Web Infrastructure Design, based on `1-distributed_web_infrastructure` that contains some additional components: 3 firewalls, 1 SSL certificate, 3 monitoring clients |
+| [`3-scale_up`](3-scale_up) | Web Infrastructure Design, based on `2-secured_and_monitored_web_infrastructure` that contains some additional components: 1 server, 1 load-balancer |
