@@ -12,6 +12,7 @@ apt-get -y install haproxy
 server_config=\
 "
 frontend  softwarsaga_frontend
+frontend  softwaresaga_frontend
         bind *:80
         mode http
         default_backend softwaresaga_backend
