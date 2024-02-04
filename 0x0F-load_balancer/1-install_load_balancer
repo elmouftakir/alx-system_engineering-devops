@@ -11,11 +11,11 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  besthor_frontend
+frontend  softwarsaga_frontend
         bind *:80
         mode http
-        default_backend besthor_backend
-backend besthor_backend
+        default_backend softwaresaga_backend
+backend softwaresaga_backend
         balance roundrobin
         server 421197-web-01 54.236.50.127:80 check
         server 421197-web-02 100.25.13.138:80 check
