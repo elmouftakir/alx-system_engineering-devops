@@ -14,14 +14,23 @@
 ## Timeline:
 
 14:00: Issue detected through automated monitoring alerts indicating increased response times.
+
 14:10: Investigation initiated by the DevOps team.
+
 14:30: Initial assumption of a potential DDoS attack; network configurations and firewalls inspected.
+
 15:00: No evidence of a DDoS attack found; focus shifted to application layer and database.
+
 15:30: Misleading investigation into application code; unnecessary code reviews and patches applied.
+
 16:00: Issue escalated to the Database and Backend Development teams.
+
 16:30: Database connection pool exhaustion identified as the root cause.
+
 17:00: Immediate mitigation steps taken to alleviate database pressure; scaling up resources.
+
 18:00: Performance monitoring tools indicated a gradual improvement.
+
 18:30: Service fully restored; operations back to normal.
 
 ## Root Cause and Resolution:
